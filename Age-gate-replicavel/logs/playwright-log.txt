@@ -1,0 +1,92 @@
+{"level":30,"time":"2021-05-24T12:37:14.764Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Listening on 49384"}
+{"level":30,"time":"2021-05-24T12:37:15.890Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active context"}
+{"level":30,"time":"2021-05-24T12:37:16.141Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-24T12:37:16.141Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active page"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 3000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//p[contains(text(),"Beba com moderação. Não compartilhe este conteúdo com menores de idade.")]" to be visible
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:202:42
+    at Frame._wrapApiCall (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:197:21)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:241:60
+    at Page._attributeToPage (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:231:20)
+    at Page.waitForSelector (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:241:21)
+    at Object.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:68991:45) {
+  name: 'TimeoutError'
+}
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:412:42
+    at Page._wrapApiCall (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.screenshot (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:408:21)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66389:47
+    at step (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66334:23)
+    at Object.next (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66315:53)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66309:71
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:412:42
+    at Page._wrapApiCall (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.screenshot (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:408:21)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66389:47
+    at step (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66334:23)
+    at Object.next (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66315:53)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:66309:71
+=============================================================
+{"level":30,"time":"2021-05-24T12:38:02.862Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active context"}
+{"level":30,"time":"2021-05-24T12:38:02.863Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-24T12:38:02.863Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:426:27
+    at Page._wrapApiCall (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.bringToFront (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:425:21)
+    at BrowserState.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69654:53)
+    at step (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69224:23)
+    at Object.next (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69205:53)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69199:71
+=============================================================
+{"level":30,"time":"2021-05-24T12:38:03.371Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active context"}
+{"level":30,"time":"2021-05-24T12:38:03.619Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-24T12:38:03.619Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active page"}
+{"level":30,"time":"2021-05-24T12:38:13.358Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Retrieved text for element div[class=main-section__content] containing Desculpe, o conteúdo desse site não está liberado para você.\n\nO consumo de bebidas alcoólicas antes dos 18 anos é proibido e pode trazer uma série de riscos e consequências negativas a sua saúde.\n\nA Ambev se compromete a não anunciar ou comunicar para esse público."}
+{"level":30,"time":"2021-05-24T12:38:13.707Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active context"}
+{"level":30,"time":"2021-05-24T12:38:13.708Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-24T12:38:13.708Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active page"}
+{"level":30,"time":"2021-05-24T12:38:13.741Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active context"}
+{"level":30,"time":"2021-05-24T12:38:13.741Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-24T12:38:13.741Z","pid":19076,"hostname":"LABRLPE06JNSS","msg":"Changed active page"}
+================= Original suppressed error =================
+Error: No context for id context=160dfe75-d293-4cb1-8728-d9c7f4774f04. Open contexts: 
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69906:23
+    at step (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69224:23)
+    at Object.next (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69205:53)
+    at c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69199:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69195:12)
+    at _switchContext (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69894:12)
+    at Object.<anonymous> (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69991:42)
+    at step (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69224:23)
+    at Object.next (c:\users\99821186\automação\lib\site-packages\Browser\wrapper\index.js:69205:53)
+=============================================================
